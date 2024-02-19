@@ -23,8 +23,18 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  " exports": {
-    "./": "./*"
+  "exports": {
+    "./": "./*",
+    ".": "./lib/environment.js",
+    "./cli/": "./cli/",
+    "./lib/": "./lib/",
+    "./lib/util/": "./lib/util/",
+    "./adapter": "./lib/adapter.js",
+    "./conflicter": "./lib/util/conflicter.js",
+    "./log": "./lib/util/log.js",
+    "./transform": "./lib/util/transform.js",
+    "./lib/util/namespace": "./lib/util/namespace.js",
+    "./package.json": "./package.json"
   },
   "browserslist": {
     "production": [
@@ -43,6 +53,6 @@
   },
   "devDependencies": {
     "autoprefixer": "10.2.5",
-    "postcss": "^8.2.8"
+    "postcss": "^8.4.35"
   }
 }
