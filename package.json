@@ -23,6 +23,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  " exports": {
+    "./": "./*"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -40,6 +43,6 @@
   },
   "devDependencies": {
     "autoprefixer": "10.2.5",
-    "postcss": "8.2.8"
+    "postcss": "^8.2.8"
   }
 }
