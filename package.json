@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
+    "@netlify/plugin-nextjs": "^4.41.3",
     "@popperjs/core": "2.9.1",
     "@tailwindcss/forms": "0.2.1",
     "chart.js": "2.9.4",
@@ -24,7 +25,7 @@
     "extends": "react-app"
   },
   "exports": {
-    "./": "./*",
+    "./*": "./",
     ".": "./lib/environment.js",
     "./cli/": "./cli/",
     "./lib/": "./lib/",
